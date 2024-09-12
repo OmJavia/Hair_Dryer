@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Dryer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <button type="button" class="btn btn-info btn-block">Refer Your Friend For 750 Credits. Know More</button>
+        </div>
+    </header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                    <img src="image/l2.png" alt="logo" class = "img-rounded" width ="100" style="padding: 17px; ;" >
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Indore<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="background-color: white;">
+                        <li><a href="#" >Sangli</a></li>
+                        <li><a href="#" >Pune</a></li>
+                        <li><a href="#">Mumbai</a></li>
+                    </ul>
+                </li>   
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1" style="
+                        size: 10px;">Login</button>
+                    <!-- Modal -->
+                    <div id="myModal1" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+                    
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Login</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form class="form-horizontal" action="/action_page.php">
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="email">Email:</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" required placeholder="Enter email">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd" required placeholder="Enter password">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                      <label><input type="checkbox"> Remember me</label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default btn-success">Submit</button>
+                                  </div>
+                                </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                    
+                      </div>
+                    </div>
+                    </li>
+                    <li></li>
+                    <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" style="
+                        size: 10px;">Sign Up</button>
+
+
+                    <div id="myModal2" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+                    
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Sign Up</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form class="form-horizontal" action="/action_page.php">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="name">Name:</label>
+                                    <div class="col-sm-10">
+                                      <input type="name" class="form-control" id="name" required placeholder="Enter your name">
+                                    </div>
+                                  </div>
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="email">Email:</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" required placeholder="Enter email">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd" required placeholder="Enter password">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default btn-success" style="text-align: center;">Submit</button>
+                                  </div>
+                                </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                    
+                      </div>
+                    </div>
+                    </li>
+                <li><a href="#"> <span class="glyphicon glyphicon-headphones"></span></a></li>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <br><br>
+        <div class="container">
+                <div class="col-sm-6">
+                    <h3 style="color: red;"><strong>Most Afforadable Hair Dryer</strong><br>
+                    <small>Elevate your hair style, </small><br>
+                    <small>One Dry at a Time!!</small></h3>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="btn-group-justified">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Buy Now</button>
+                            <!-- Modal -->
+                            <div id="myModal3" class="modal fade" role="dialog">
+                              <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                  <div class="modal-body">
+                                    <p>The Product is currently<strong> Out of Stock.</strong></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <br>
+                <div class="col-sm-6">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                      
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="image/h1.jpg" alt="h1" class="img-reponsive">
+                          </div>
+                      
+                          <div class="item">
+                            <img src="image/h2.jpg" alt="h2" class="img-reponsive">
+                          </div>
+                      
+                          <div class="item">
+                            <img src="image/h3.jpg" alt="h3" class="img-reponsive">
+                          </div>
+                          <div class="item">
+                            <img src="image/h4.jpg" alt="h4" class="img-reponsive">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+        </div>
+        <br><br><br>
+        <div class="container" style="text-align: center; font-size: medium;">
+            <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <div class="card card-hover" style="width: 200px;
+                height: 160px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 7px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+                display:block; ">Package<br><br>
+                    <img src="image/b1.png" alt="b1" class="img-reponsive" width="100">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="card card-hover" style="width: 200px;
+                height: 160px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 7px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+                display:block; ">Servicing<br><br>
+                    <img src="image/b2.png" alt="b2" class="img-reponsive" width="100">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="card card-hover" style="width: 200px;
+                height: 160px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 7px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+                display:block; ">Maintenance<br><br>
+                    <img src="image/b3.png" alt="b3" class="img-reponsive" width="100">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="card card-hover" style="width: 200px;
+                height: 160px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 7px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+                display:block; ">Products<br><br>
+                    <img src="image/b9.png" alt="b9" class="img-reponsive" width="100">
+                </div>
+            </div>
+        </div>
+        </div>
+        <br><br><br>
+        <div class="container" style="text-align: center; font-size:x-large">
+            <p><strong> Why Choose Us </strong> </p>
+        </div>
+
+        <br><br><br>
+        <div class="container">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5"> <h3 style="color: rgb(206, 20, 20);"><strong><span class="glyphicon glyphicon-record" style="color: red;"></span> Red Light Therapy Hair Dryer</strong><br>
+                <br>
+                <small>World's First Red light Therapy hair Dryer, </small><br>
+                <small>which increase the hair quality and length effectively!!</small></h3></div>
+            <div class="col-sm-6">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                  
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="image/h4.jpg" alt="h1" class="img-reponsive">
+                      </div>
+                  
+                      <div class="item">
+                        <img src="image/h3.jpg" alt="h2" class="img-reponsive">
+                      </div>
+                  
+                      <div class="item">
+                        <img src="image/h2.jpg" alt="h3" class="img-reponsive">
+                      </div>
+                      <div class="item">
+                        <img src="image/h1.jpg" alt="h4" class="img-reponsive">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <br><br>
+        <br><br>
+        <div class="container" style="text-align: center; font-size:x-large">
+            <p><strong> How it works </strong> </p>
+        </div>
+
+        <br><br><br>
+        <div class="container" style="text-align: center; font-size: medium;">
+            <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="image/c1.png" alt="c2" class="img-reponsive" width="100">
+                    <br><br>
+                    Create Account
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="image/c2.png" alt="c2" class="img-reponsive" width="100">
+                    <br><br>
+                    Place Order
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                <div class="card" >
+                    <img src="image/c3.png" alt="c3" class="img-reponsive" width="100"> 
+                    <br><br>
+                    Pick Or Drop <br> Your Dryer
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="image/c4.png" alt="c4" class="img-reponsive" width="100">
+                    <br><br>
+                    Service Completed
+                </div>
+            </div>
+        </div>
+        </div>
+        <br><br><br>
+        <div class="container" style="text-align: center; font-size:x-large">
+            <p><strong> Customers Review </strong> </p>
+        </div>
+
+        <br>
+        <div class="container" style="text-align: center;">
+            <img src="image/c6.png" alt="c4" class="img-reponsive" width="30">
+        <div style="font-size: x-large;"><strong>Om Javia, 23 yrs</strong></div><br>
+        <div style=" font-size: medium;">
+        The New Red Light Therapy Hair Dryer is one of the most amazing thing i have ever tried <br> I Personally Recommend you to use this product as i have seen very great results from using this product  
+        </div>
+     <img src="image/c5.png" alt="c4" class="img-reponsive" width="100">
+    </div>
+    <br><br>
+
+        <div class="container-fluid" style="background-color: grey;"> 
+            <div class="row">
+            <div class="col-sm-3"><h3>Hair Dryer</h3><br>
+            <p>Hello Welcome to our website<br>
+            We are happy to work with you</p>
+            </div>
+            <div class="col-sm-3"><h3>About Evo-Dry</h3><br>
+                <p>Home<br>
+                Service<br>
+                Products<br>
+                About<br>
+                Contact</p>
+            </div>
+            <div class="col-sm-3"><h3>Customer Service</h3><br>
+                +91-7987734352, 8770889961<br>
+                Service@evodry.in<br>
+                help@evodry.in
+            </div>
+            <div class="col-sm-3"><h3>Social Media</h3><br>
+                <img src="image/i1.png" width="20px" >
+                <img src="image/i2.png" width="20px" >
+                <img src="image/i3.png" width="20px">
+            </div>
+        </div>
+        </div>
+</body>
+</html>
