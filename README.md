@@ -1,7 +1,7 @@
-# Hair Dryer App
+# Hair Dryer App 
 ![image](https://github.com/user-attachments/assets/49e39394-973d-4f68-848f-f983fe92eda2)
 
-This project is a **Hair Dryer App** that showcases different hair dryers and their features. It provides users with information on various models, including specifications, price, and a link to purchase the products. The app is built using **HTML**, **CSS**, **Bootstrap 3**, and **Python**.
+This project is a **Hair Dryer App** that showcases different hair dryers and their features. It provides users with information on various models, including specifications, price, and a link to purchase the products. The app is built using **HTML5**, **CSS3**, **Bootstrap 3**, and **Python**.
 
 ## Project Overview
 
